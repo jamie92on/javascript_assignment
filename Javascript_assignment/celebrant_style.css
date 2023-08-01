@@ -1,0 +1,157 @@
+/*the main css*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid #fff;
+}
+nav .logo {
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-family: cursive;
+}
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+}
+section {
+    width: 100%;
+    height: 70vh;
+    background: url(file:///C:/Users/jamie/OneDrive/Documents/Web_developmet/Javascript_assignment/images/wedding_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5px;         
+}
+#main {
+    font-size: 22px;
+    font-family: sans-serif;
+    overflow: auto;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #5b8385; 
+    color: black;
+}
+
+.paraone img {
+float: right;
+
+}
+
+.paraone {
+overflow: auto;
+clear: right;
+padding-top: 15px;
+}
+
+.para_two img {
+float: left;
+margin-right: 10px;
+}
+
+.para_two {
+clear: right;
+padding-top: 15px;
+}
+.para_three img {
+    float: right;
+}
+.para_three {
+    clear: left;
+    padding-top: 15px;
+}
+#foot {
+    background-color: #f79543;
+    position: relative;
+    height: 90px;
+    color: #0043FF;
+    text-align: center;
+    margin-top: auto;
+    height: 100px;
+    clear: both;
+    padding-top: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #fafafa;
+}
+/*contact form style*/
+
+#contact{
+    width: 100%;
+    height: 50vh;
+    background: #5b8385;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form h3{
+    color: rgb(0, 0, 0);
+    font-weight: 750;
+    margin-bottom: 20px;
+}
+form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    background: #fcfcfc;
+    font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background: #c13222;
+    color: #fcfcfc;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 30px;
+}
